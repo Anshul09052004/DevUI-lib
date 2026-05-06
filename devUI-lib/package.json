@@ -1,0 +1,20 @@
+{
+  "name": "devui-lib",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A UI library for development purposes.",
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}
