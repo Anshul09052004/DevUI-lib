@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import { useEffect } from 'react'
 import axios from 'axios';
-import { setUserData } from './Redux/userSlice';
+import { setUserData, } from './Redux/userSlice';
 import { useDispatch } from 'react-redux';
 
 
