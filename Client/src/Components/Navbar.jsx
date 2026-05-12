@@ -119,7 +119,7 @@ function Navbar({ setShowAuth }) {
 
                                 </div>
 
-                                {
+                                {/* {
                                     userData ? (
                                         <button
                                             onClick={() => setOpenProfile(!openProfile)}
@@ -142,7 +142,7 @@ function Navbar({ setShowAuth }) {
                                         </button>
 
                                     )
-                                }
+                                } */}
 
                                 {/* Menu Buttons */}
                                 <div className='flex flex-col gap-3 mt-5'>
