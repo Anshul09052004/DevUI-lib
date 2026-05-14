@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import axios from 'axios';
 import { setUserData, } from './Redux/userSlice';
 import { useDispatch } from 'react-redux';
+import Generate from './Pages/Generate';
 
 
 function App() {
@@ -32,6 +33,8 @@ const dispatch = useDispatch();
     <div>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/generate' element={<Generate />} />
+        
       </Routes>
 
 
